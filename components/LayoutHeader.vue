@@ -16,7 +16,7 @@
         <div class="basis-3/6">
             <ul class="flex gap-x-2  w-max  ">
                 <li><router-link to="/"   class="hover:text-yellow-600" >Home</router-link></li>
-                <li><router-link to="/doc/accueil"  class="hover:text-yellow-600">Design</router-link></li>
+                <li><nuxt-link to="/design"  class="hover:text-yellow-600">Design</nuxt-link></li>
             </ul>
         </div>
     </header>
