@@ -4,7 +4,7 @@ WORKDIR /workdir
 COPY . /workdir
 RUN yarn
 RUN yarn install
-RUN yarn buil --prod
+RUN yarn build --prod
 
 # run
 FROM nginx:1.14.2
