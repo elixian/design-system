@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+
+  ui:
+    build: .
+    image: registry.dev.n18.an.cnav/scn-design-22/scn-design-22:${VERSION:-latest}
