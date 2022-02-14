@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:prettier",
-    "lintfix": "prettier --write --list-different ."
+    "lintfix": "prettier --write --list-different .",
+    "heroku-postbuild":"nuxt build"
   },
   "dependencies": {
     "core-js": "^3.19.3",
