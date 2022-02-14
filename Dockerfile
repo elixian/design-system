@@ -20,5 +20,5 @@ COPY --from=builder /workdir/package.json /usr/share/nginx/html
 COPY --from=builder /workdir/static /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
-RUN yarn install
-RUN yarn start
+RUN npm install
+RUN npm start
