@@ -6,7 +6,7 @@
         <div class="container pl-16 pr-16">
           <h1 class="">Introduction</h1>
           <section class="intro">
-              <img src="/introduction.png" alt="image inroduction" srcset="" class="max-w-4xl mb-10">
+              <img src="/introduction.png" alt="image inroduction" srcset="" class="max-w-4xl mb-10 w-full">
               <div>
                   <p class="mt-5">Ant Financial has a large number of enterprise-level products. With complex scenarios, designers and developers often need to respond fast due to frequent changes in product demands and concurrent R & D workflow. Many similar contents exist in the process. Through abstraction, we could obtain some stable and highly reusable components and pages.</p>
                     <p class="mt-5">
@@ -19,5 +19,4 @@
         </div>
       </div>
     </div>
-
 </template>
