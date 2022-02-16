@@ -5,7 +5,7 @@
         Flut Design
       </h1>
     </section>
-    <section id="content" class="w-full pl-60 pr-60">
+    <section id="content" class="w-full pl-10 pr-10 lg:pl-60 lg:pr-60">
       <div>
         <h2 class="font-light">Recommanded</h2>
         <div class="flex gap-4 m-auto w-full">
