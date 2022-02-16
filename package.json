@@ -10,7 +10,7 @@
     "lint:prettier": "prettier --check .",
     "lint": "yarn lint:prettier",
     "lintfix": "prettier --write --list-different .",
-    "heroku-postbuild":"nuxt build"
+    "heroku-postbuild": "nuxt build"
   },
   "dependencies": {
     "core-js": "^3.19.3",

@@ -45,12 +45,12 @@ export default {
 
     }
   },
-  methods:{
-     activeSubmenu(event){
-       console.log(event)
-        event.target.parentElement.classList.toggle("active");
-      }
-  }
+  // methods:{
+  //    activeSubmenu(event){
+  //      console.log(event)
+  //       event.target.parentElement.classList.toggle("active");
+  //     }
+  // }
 }
 </script>
 
