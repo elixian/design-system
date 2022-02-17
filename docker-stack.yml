@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   ui:
-    image: registry.dev.n18.an.cnav/scn-design-22/scn-design-22:${VERSION:-latest}
+    image: registry.dev.n18.an.cnav/scn-design-22/scn-design-22:1.2.0
     networks:
       - front-network
     deploy:
