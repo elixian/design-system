@@ -3,7 +3,7 @@ version: "3.7"
 services:
 
   ui:
-    image: registry.dev.n18.an.cnav/scn-design-22/scn-design-22:1.2.0
+    image: registry.dev.n18.an.cnav/scn-design-22/scn-design-22:latest
     networks:
       - front-network
     deploy:
@@ -11,7 +11,7 @@ services:
           - "traefik.docker.network=front-network"
           - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.priority=10"
           - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.rule=HostRegexp(`scn-poc.{domain:[a-z0-9\\.]+}`)"
-         # - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.rule=Host(`slt03092.dev.n18.an.cnav`)"
+          - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.rule=Host(`slt03092.dev.n18.an.cnav`)"
           - "traefik.http.services.scn-design-22-${NEWCOLOR:-blue}.loadbalancer.server.port=80"
 
 networks:

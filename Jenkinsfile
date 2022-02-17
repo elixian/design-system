@@ -10,7 +10,7 @@ pipeline {
   }
 
   parameters {
-    string(name: 'VERSION', defaultValue: '1.1.0', description: 'Version à déployer')
+    string(name: 'VERSION', defaultValue: '1.2.0', description: 'Version à déployer')
     booleanParam(name: 'integration', defaultValue: false, description: 'Deployer le produit en intégration')
     booleanParam(name: 'production', defaultValue: false, description: 'Deployer le produit en production')
   }
