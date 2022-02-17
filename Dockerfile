@@ -12,7 +12,7 @@ FROM nginx:1.14.2
 COPY appli-nginx.conf /etc/nginx/conf.d/default.conf
 
 ## Remove default nginx index page
-RUN rm -rf /usr/share/nginx/html/*
+# RUN rm -rf /usr/share/nginx/html/*
 
 COPY --from=builder /workdir/dist /usr/share/nginx/html
  
