@@ -11,6 +11,7 @@ services:
           - "traefik.docker.network=front-network"
           - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.priority=10"
           - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.rule=HostRegexp(`scn.{domain:[a-z0-9\\.]+}`)"
+          
          # - "traefik.http.routers.scn-design-22-${NEWCOLOR:-blue}.rule=Host(`slt03092.dev.n18.an.cnav`)"
           - "traefik.http.services.scn-design-22-${NEWCOLOR:-blue}.loadbalancer.server.port=80"
 
