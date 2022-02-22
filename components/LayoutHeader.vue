@@ -20,8 +20,8 @@
         </li>
       </ul>
     </div>
-    <div class="basis-1/6 shrink-0 flex justify-evenly items-center">
-    <div class="max-w-fit pt-1 pb-1 pl-2 pr-2 border rounded">v 0.0.1</div>
+    <div class="basis-2/6 shrink-0 flex gap-5 justify-end items-center">
+    <div class="max-w-fit pt-1 pb-1 pl-2 pr-2 border rounded select-none">v 0.0.1</div>
       <a class="block max-h-fit p-0" href="http://vcs.dev.n18.an.cnav/scn/design-22" target="_blank">
         <ui-icones-git-logo class="w-5 ml-auto hover-blue" />
       </a>
