@@ -16,4 +16,4 @@ COPY appli-nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=builder /workdir/dist /usr/share/nginx/html
  
-RUN ls /usr/share/nginx/html
+RUN echo $(ls -1 /tmp/dir)
