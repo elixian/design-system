@@ -2,7 +2,6 @@
 FROM node:16.13 AS builder
 WORKDIR /workdir
 COPY . /workdir
-RUN yarn
 RUN yarn install
 RUN yarn generate --prod
 
