@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <aside>
+
+    <aside class="bg-gradient-to-t from-slate-200">
       <div class="content-nav">
         <nav>
           <ul class="side-menu">
@@ -35,7 +35,7 @@
         </nav>
       </div>
     </aside>
-  </div>
+
 </template>
 
 <script>
@@ -58,7 +58,7 @@ export default {
 
 <style scoped lang="scss">
 .sub-menu_title {
-  @apply pl-3  leading-10 bg-transparent transition duration-200  hover:text-blue-500 transform cursor-pointer;
+  @apply pl-3  leading-10 bg-transparent transition duration-300  hover:text-blue-500 hover:shadow-sm hover:bg-white transform cursor-pointer;
 
   &.active {
     @apply bg-red-200;
