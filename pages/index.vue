@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full  ">
+  <div class="w-full mb-20 ">
     <section id="entete" class="h-80 pt-10 bg-gradient-to-b from-slate-200">
       <h1 class="text-7xl text-center">
         Flut Design

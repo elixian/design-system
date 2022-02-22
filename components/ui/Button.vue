@@ -4,7 +4,7 @@
 
     <section class="main-design mt-10 mb-10 ">
       <h2>Design Principal</h2>
-      <ul class="ml-6">
+      <ul class="ml-6 list-circle">
         <li>Guide users to achieve the desired actions.</li>
         <li>Prevent user to make mistakes.</li>
       </ul>
@@ -17,8 +17,3 @@
 </template>
 
 
-<style scoped lang="scss">
-ul li {
-    list-style-type: circle;
-  }
-</style>
