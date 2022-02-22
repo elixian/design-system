@@ -4,14 +4,20 @@
 
 
 
-h1{
-    @apply text-4xl mb-10
-}
 
-h2{
-    @apply text-3xl font-normal mb-3
-}
-h3{
-    @apply text-2xl font-thin mb-3
-}
 
+@layer base{
+    h1{
+        @apply text-4xl mb-10
+    }
+    
+    h2{
+        @apply text-3xl font-normal mb-3
+    }
+    h3{
+        @apply text-2xl font-thin mb-3
+    }
+    .hover-blue:hover, .hover-blue:hover > *{
+        @apply text-blue-500 fill-blue-500
+    }
+}
