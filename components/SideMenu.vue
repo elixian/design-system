@@ -38,24 +38,6 @@
 
 </template>
 
-<script>
-
-export default {
-  data(){
-    return{
-
-    }
-  },
-  // methods:{
-  //    activeSubmenu(event){
-  //      console.log(event)
-  //       event.target.parentElement.classList.toggle("active");
-  //     }
-  // }
-}
-</script>
-
-
 <style scoped lang="scss">
 .sub-menu_title {
   @apply pl-3  leading-10 bg-transparent transition duration-300  hover:text-blue-500 hover:shadow-sm hover:bg-white transform cursor-pointer;
