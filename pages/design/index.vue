@@ -1,8 +1,8 @@
 <template>
 
-    <div class="flex pt-10 w-full">
+    <div class="flex pt-10 w-full ">
       <side-menu class="basis-1/6 border-r-2 min-h-screen"></side-menu>
-      <div class="w-full min-h-full">
+      <div class="w-full min-h-full mb-20">
         <div class="container pl-16 pr-16">
           <h1 class="">Introduction</h1>
           <section class="intro">
@@ -13,9 +13,22 @@
                         On the other hand, with the trend of commercialization, more and more enterprise products begin to pursue better user experiences. Under this situation, Ant User-Experience Design Team builds a design system for enterprise products based on four design values of Natural, Certain, Meaningful, and Growing. It aims to uniform the user interface specs and reduce redundancies and excessive production costs, helping product designers to focus on better user experience.
                     </p>
               </div>
-
           </section>
-          
+          <section>
+              <h2>Guidelines and Resources</h2>
+              <p class="mt-5">
+                We provide comprehensive design guidelines, best practices, resources, and tools to help designers produce high-quality product prototypes.
+              </p>
+              <ul class="mt-5 pl-10 list-circle">
+                <li>Design values</li>
+                <li>Design patterns</li>
+                <li>Visualization</li>
+                <li>Illustrations</li>
+                <li>Design ressources</li>
+                <li>Sketch toolbox</li>
+                <li>Articles</li>
+              </ul>
+            </section>    
         </div>
       </div>
     </div>
